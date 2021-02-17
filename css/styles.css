@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Long+Cang&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    text-transform: capitalize;
+}
+
+.container{
+    width: 90%;
+    align-items: center;
+    justify-items: center;
+    margin: auto 50px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo{
+    font-size: 30px;
+    font-family: 'Reggae One', cursive;
+}
+
+.header .logo h4 span{
+    color: red;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+font-family: 'Long Cang', cursive;
+    font-size: 20px;
+}
+
+nav ul li{
+ margin: auto 40px;
+ list-style: none;
+ font-weight: 1000;
+}
+
+li:hover{
+    color: red;
+    
+}
+
+.parent{
+    display: flex;
+    width: 90%;
+    height: 50vh;
+}
+
+.mainText {
+    width: 50%;
+    margin-top: 20%;
+    
+
+
+}
+.glitch h1{
+    color: red;
+}
+
+.imageText{
+    width: 40%;
+    margin-top: 0%;
+    font-size: 30px;
+    margin-top: -20px;
+   
+    background-size: contain;
+}
+
+.carousel-inner img{
+    height: 500px;
+    width: 900px;
+    background-position-y: -200px;      
+    background-position-x: 230px;
+    
+ 
+
+
+}
+
+.maintext{
+    display: flex;
+}
+
+
+
+.instagram-photo {
+	overflow: hidden;
+}
+
+.instagram-photo img{
+    width: 200px;
+	height: 320px;
+    justify-content: center;
+	position: absolute;
+    margin-left: -100px;
+
+
+}
+
+.instagram-photo .insta-item {
+	float: left;
+	width: 16.66%;
+	height: 320px;
+	text-align: center;
+	position: relative;
+}
+
+.instagram-photo .insta-item:hover:before {
+	opacity: 1;
+}
+
+.instagram-photo .insta-item:hover .inside-text {
+	opacity: 1;
+	visibility: visible;
+	z-index: 99;
+}
+
+.instagram-photo .insta-item:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	content: "";
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.instagram-photo .insta-item .inside-text {
+	padding-top: 130px;
+	opacity: 0;
+	visibility: hidden;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.instagram-photo .insta-item .inside-text i {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.instagram-photo .insta-item .inside-text h5 {
+	margin-top: 14px;
+}
+
+.instagram-photo .insta-item .inside-text h5 a {
+	color: #ffffff;
+}
+
+.video{
+    display: flex;
+}
+iframe{
+    width: 50%;
+
+}
+
+.video .videotext{
+    margin-left: 100px;
+    font-family:'Reggae One', cursive; 
+    width: 50%;
+    
+    
+}
+
+.video h1{
+    font-family:'Reggae One', cursive; 
+    align-items: center;
+}
+.video .p{
+ background-color:grey;
+ color: white;
+ padding: 5px 30px;
+}
+
+.p i{
+    font-size: 40px;
+    color: white;
+}
+
+.p i:hover{
+    color: red;
+
+}
+
+.agencies{
+
+    margin-top: 50px;
+
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+.agencies h3 span{
+    color: red;
+}
+
+.agentName{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.agencies h5{
+    position: relative;
+    font-size: 20px;
+    color:white;
+    -webkit-text-stroke: 0.3vw red;
+    text-transform: uppercase;
+}
+
+h2::before{
+    content:attr(data-text);
+    position: absolute;
+    width: 100%;
+
+}
+
+
+
+
