@@ -345,14 +345,27 @@ margin-top: 100px;
            
 
   }
+  .info1{
+     margin: 0 400px;
+  }
 
-  .info{
-   width: auto;
-   height: auto;
+  .info a{
    text-decoration: none;
+   color: honeydew;
+   width: 50%;
+  }
+
+  .info a:hover{
+      color: red;
+  }
+
+  .info p{
+      width: 50%;
+      margin: auto;
+      
   }
   .socialmedia{
-     align-content: center;
+ margin: 0 400px;
   }
 
   .socialmedia i{
@@ -361,6 +374,18 @@ margin-top: 100px;
       font-size: 50px;
       padding: 20px;
   }
+
+  .socialmedia i:hover{
+      color: red;
+  }
+
+  .socialmedia span i:hover{
+      color:skyblue;
+  }
+
+  .socialmedia .spanf i:hover{
+    color:rgb(100, 100, 241);
+}
 
 
 
