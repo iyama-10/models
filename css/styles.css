@@ -365,7 +365,9 @@ margin-top: 100px;
       
   }
   .socialmedia{
- margin: 0 400px;
+    display: flex;
+    justify-content: center;
+    
   }
 
   .socialmedia i{
@@ -373,6 +375,7 @@ margin-top: 100px;
       height: auto;
       font-size: 50px;
       padding: 20px;
+      j
   }
 
   .socialmedia i:hover{
